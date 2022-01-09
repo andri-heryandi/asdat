@@ -23,7 +23,7 @@ def perkalian(M1,M2):
             for i in range(M1.shape[1]): # kolom matrik 1
                 M3[b][k] = M3[b][k] + M1[b][i] *  M2[i][k]
     return M3
-
+# sample 
 A = np.array([[1, 2],
               [ 4, 5]])
 B = np.array([[3, 2],
