@@ -3,7 +3,7 @@ import numpy as np
 def jarak(matrikJarak, rute):
     total = 0
     for i in range(len(rute)-1):
-        total += matrikJarak[rute[i]][rute[i+1]]
+        total += matrikJarak[rute[i],rute[i+1]]
     return total
 
 matrikJarak = np.array([
